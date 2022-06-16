@@ -5,3 +5,8 @@ import b from './b';
 export const store = configureStore({
   reducer: { a, b },
 });
+
+export interface RootState {
+  a: number;
+  b: number;
+}
