@@ -1,5 +1,5 @@
 {
-  "name": "cra-template-1",
+  "name": "cra-redux-test",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
