@@ -6,7 +6,4 @@ export const store = configureStore({
   reducer: { a, b },
 });
 
-export interface RootState {
-  a: number;
-  b: number;
-}
+export type RootState = ReturnType<typeof store.getState>;
